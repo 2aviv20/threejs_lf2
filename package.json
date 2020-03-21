@@ -1,0 +1,56 @@
+{
+    "name": "boilerplate-babel-webpack",
+    "version": "1.0.0",
+    "description": "Starter with Babel.js and Webpack",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server --open --config=webpack/webpack.config.dev.js",
+        "watch" : "webpack --watch"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/preset-env": "^7.7.7",
+        "babel-loader": "^8.0.6",
+        "brotli-webpack-plugin": "^1.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "compression-webpack-plugin": "^3.0.1",
+        "css-loader": "^3.4.1",
+        "cssnano": "^4.1.0",
+        "file-loader": "^5.0.2",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.13.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-loader": "^3.0.0",
+        "postcss-preset-env": "^6.7.0",
+        "purgecss-webpack-plugin": "^1.6.0",
+        "sass-loader": "^8.0.0",
+        "style-loader": "^1.1.2",
+        "terser-webpack-plugin": "^2.3.1",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.1"
+    },
+    "keywords": [
+        "webpack",
+        "module",
+        "bundler",
+        "babel",
+        "starter",
+        "boilerplate",
+        "source map",
+        "explorer",
+        "count",
+        "loc",
+        "line of code"
+    ],
+    "repository": {
+        "type": "git"
+    },
+    "dependencies": {
+        "three": "^0.114.0",
+        "webpack": "^4.42.0"
+    }
+}
